@@ -2,13 +2,12 @@ body
 {
   margin : 0;
   background-color : #E6DACE;
+  min-height: 800px;
 }
 
 .gif{
-  position: absolute;
-  top : 60%;
-  width: 14%;
-  left: 43%;
+  padding-top : 5%;
+  width : 25%;
 }
 
 .textcontainer{
@@ -23,10 +22,8 @@ body
 @media only screen and (max-device-width: 480px){
 
   .gif{
-    position: absolute;
-    top : 50%;
-    width: 20%;
-    left: 40%;
+    padding-top : 10%;
+    width : 30%;
   }
 
   .textcontainer{
