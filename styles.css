@@ -1,8 +1,11 @@
-body
-{
+body{
   margin : 0;
   background-color : #E6DACE;
   min-height: 800px;
+}
+
+.barun{
+  width : 22%;
 }
 
 .gif{
@@ -16,10 +19,34 @@ body
   position: absolute;
   top : 16%;
   width : 40%;
-  right : 30%
+  right : 30%;
+}
+
+.button{
+  font-family: 'Nanum Pen Script', cursive;
+  background-color: black;
+  color: white ;
+  font-size: 1.2vmax;
+  margin-right : 2%;
+  border: 2px solid black ;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 22px;
+}
+
+.button:hover{
+  border: 2px solid white;
+  background-color: white;
+  color: black;
 }
 
 @media only screen and (max-device-width: 480px){
+
+  .barun{
+    padding-top : 5%;
+    width : 35%;
+  }
 
   .gif{
     padding-top : 10%;
@@ -31,8 +58,21 @@ body
     font-size: 2vmax;
     position: absolute;
     top : 16%;
-    width : 70%;
-    left : 15%;
+    width : 72%;
+    left : 14%;
+  }
+
+  .button{
+    font-family: 'Nanum Pen Script', cursive;
+    background-color: black;
+    color: white ;
+    font-size: 1.4vmax;
+    margin-right : 2%;
+    border: 2px solid black ;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 22px;
   }
 
 }
