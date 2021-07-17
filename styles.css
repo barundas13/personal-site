@@ -19,3 +19,23 @@ body
   width : 40%;
   right : 30%
 }
+
+@media only screen and (max-device-width: 480px){
+
+  .gif{
+    position: absolute;
+    top : 50%;
+    width: 20%;
+    left: 40%;
+  }
+
+  .textcontainer{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2vmax;
+    position: absolute;
+    top : 16%;
+    width : 70%;
+    left : 15%;
+  }
+
+}
