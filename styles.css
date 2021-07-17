@@ -16,8 +16,8 @@ body{
 .gif1{
   position: absolute;
   top : 20%;
-  right : 40%;
-  width : 20%;
+  right : 43%;
+  width : 14%;
 }
 
 .textcontainer{
@@ -29,7 +29,7 @@ body{
   right : 30%;
 }
 
-a{
+.button{
   font-family: 'Nanum Pen Script', cursive;
   background-color: black;
   color: white ;
@@ -42,9 +42,41 @@ a{
   border-radius: 22px;
 }
 
-a:hover{
+.button a:hover{
   border: 2px solid white;
   background-color: white;
+  color: black;
+}
+
+.fa {
+  padding: 4%;
+  width: 4%;
+  text-align: center;
+  text-decoration: none;
+  margin-top : 5%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: black;
+}
+
+.fa-google {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-youtube {
+  color: black;
+}
+
+.fa-instagram {
   color: black;
 }
 
