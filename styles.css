@@ -13,6 +13,13 @@ body{
   width : 25%;
 }
 
+.gif1{
+  position: absolute;
+  top : 20%;
+  right : 40%;
+  width : 20%;
+}
+
 .textcontainer{
   font-family: 'Nanum Pen Script', cursive;
   font-size: 1.6vmax;
@@ -22,7 +29,7 @@ body{
   right : 30%;
 }
 
-.button{
+a{
   font-family: 'Nanum Pen Script', cursive;
   background-color: black;
   color: white ;
@@ -35,7 +42,7 @@ body{
   border-radius: 22px;
 }
 
-.button:hover{
+a:hover{
   border: 2px solid white;
   background-color: white;
   color: black;
@@ -62,17 +69,11 @@ body{
     left : 14%;
   }
 
-  .button{
-    font-family: 'Nanum Pen Script', cursive;
-    background-color: black;
-    color: white ;
-    font-size: 1.4vmax;
-    margin-right : 2%;
-    border: 2px solid black ;
-    padding: 1% 2%;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 22px;
+  .gif1{
+    position: absolute;
+    top : 35%;
+    right : 32%;
+    width : 36%;
   }
 
 }
