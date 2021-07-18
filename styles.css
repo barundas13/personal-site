@@ -48,37 +48,6 @@ body{
   color: black;
 }
 
-.fa {
-  padding: 5%;
-  text-align: center;
-  text-decoration: none;
-  margin-top : 5%;
-}
-
-.fa:hover {
-    opacity: 0.5;
-}
-
-.fa-facebook {
-  color: black;
-}
-
-.fa-google {
-  color: black;
-}
-
-.fa-linkedin {
-  color: black;
-}
-
-.fa-youtube {
-  color: black;
-}
-
-.fa-instagram {
-  color: black;
-}
-
 @media only screen and (max-device-width: 480px){
 
   .barun{
