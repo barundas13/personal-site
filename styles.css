@@ -27,10 +27,10 @@ body{
   position: absolute;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  top : 8%;
+  top : 6%;
   padding : 2%;
-  right : 27%;
   left : 27%;
+  right : 27%;
 }
 
 .textcontainer:hover{
@@ -54,6 +54,17 @@ body{
   border: 2px solid white;
   background-color: white;
   color: black;
+}
+
+.socialmedia{
+  width : 6%;
+  padding-top : 8%;
+  margin-right : 2%;
+  margin-left : 2%;
+}
+
+.socialmedia:hover{
+  opacity : 0.5;
 }
 
 @media only screen and (max-device-width: 480px){
