@@ -4,8 +4,16 @@ body{
   min-height: 800px;
 }
 
+p{
+  margin-top : 2%;
+}
+
 .barun{
   width : 22%;
+}
+
+.heading{
+  margin : 2%;
 }
 
 .gif{
@@ -31,7 +39,6 @@ body{
   padding : 2%;
   left : 27%;
   right : 27%;
-  margin-bottom: 20%;
 }
 
 .textcontainer:hover{
@@ -72,7 +79,8 @@ body{
 
   .barun{
     padding-top : 5%;
-    width : 35%;
+    width : 38%;
+    margin-bottom : 0;
   }
 
   .gif{
@@ -82,11 +90,11 @@ body{
 
   .textcontainer{
     font-family: 'Nanum Pen Script', cursive;
-    font-size: 2vmax;
+    font-size: 1.8vmax;
     position: absolute;
     top : 16%;
-    right : 14%;
-    left : 14%;
+    right : 12%;
+    left : 12%;
   }
 
   .gif1{
@@ -95,5 +103,7 @@ body{
     right : 32%;
     width : 36%;
   }
+
+
 
 }
