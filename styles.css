@@ -9,7 +9,7 @@ body{
 }
 
 .gif{
-  padding-top : 5%;
+  padding-top : 2%;
   width : 25%;
 }
 
@@ -31,7 +31,6 @@ body{
   padding : 2%;
   left : 27%;
   right : 27%;
-  margin-bottom : 6%;
 }
 
 .textcontainer:hover{
