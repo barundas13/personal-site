@@ -32,8 +32,10 @@ p{
 }
 
 .textcontainer{
+
   background: transparentize($white, 0.8);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+
   font-family: 'Nanum Pen Script', cursive;
   font-size: 25px;
   position: absolute;
@@ -42,17 +44,17 @@ p{
   padding : 20px;
   width : 650px;
   height : auto;
-  top:5%;
+  top:4%;
   left:0;
   right:0;
   margin :auto;
-
-  margin-bottom: 100px;
+  border-radius : 30px;
 }
 
 .textcontainer:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
 
 .button{
   font-family: 'Nanum Pen Script', cursive;
@@ -114,7 +116,7 @@ p{
     font-family: 'Nanum Pen Script', cursive;
     font-size: 18px;
     position: absolute;
-    top : 10%;
+    top : 16%;
     width : 300px;
     height : auto;
   }
