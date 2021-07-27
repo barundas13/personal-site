@@ -1,6 +1,10 @@
-body{
+body , html{
   margin : 0;
-  background-color : #E6DACE;
+  height : 100%;
+  background-image: url("b3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p{
@@ -28,7 +32,8 @@ p{
 }
 
 .textcontainer{
-  background-color: #F4ECE6;
+  background: transparentize($white, 0.8);
+  backdrop-filter: blur(10px);
   font-family: 'Nanum Pen Script', cursive;
   font-size: 25px;
   position: absolute;
