@@ -34,7 +34,7 @@ p{
 .textcontainer{
 
   background: transparentize($white, 0.8);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 
   font-family: 'Nanum Pen Script', cursive;
   font-size: 25px;
@@ -116,7 +116,7 @@ p{
     font-family: 'Nanum Pen Script', cursive;
     font-size: 18px;
     position: absolute;
-    top : 12%;
+    top : 16%;
     width : 300px;
     height : auto;
   }
