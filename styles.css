@@ -33,7 +33,7 @@ p{
 
 .textcontainer{
 
-  background: transparentize($white, 0.8);
+  background: transparentize($white, 0.5);
   backdrop-filter: blur(10px);
   font-family: 'Itim', cursive;
   font-size: 22px;
